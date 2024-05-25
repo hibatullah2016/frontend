@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        nav ul {
+            list-style: none;
+        }
+
+        #horizontal_menu {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 25px;
+            background-color: black;
+            color: white;
+        }
+
+        #horizontal_menu ul {
+            display: flex;
+        }
+
+        #horizontal_menu li {
+            padding: 10px;
+        }
+
+        #horizontal_menu a,
+        #vertical a {
+            text-decoration: none;
+            color: white;
+        }
+
+        #vertical {
+            width: 250px;
+            background: purple;
+            color: white;
+            height: 100vh;
+            padding: 20px;
+        }
+
+        #vertical ul {
+            padding-top: 50px;
+        }
+
+        #vertical li {
+            padding: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <nav id="horizontal_menu">
+        <h1>Logo</h1>
+        <ul>
+            <li>
+                <a href="">Home</a>
+            </li>
+            <li>
+                <a href="">About</a>
+            </li>
+            <li>
+                <a href="">Services</a>
+            </li>
+            <li>
+                <a href="">Contact</a>
+            </li>
+        </ul>
+    </nav>
+    <nav id="vertical">
+        <h1>Logo</h1>
+        <ul>
+            <li>
+                <a href="">Home</a>
+            </li>
+            <li>
+                <a href="">About</a>
+            </li>
+            <li>
+                <a href="">Services</a>
+            </li>
+            <li>
+                <a href="">Contact</a>
+            </li>
+        </ul>
+    </nav>
+</body>
+</html>

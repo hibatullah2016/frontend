@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #horizontal_menu {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 25px;
+            color: white;
+            background-color: black;
+        }
+        #horizontal_menu ul {
+            display: flex;
+        }
+        #horizontal_menu a {
+            color: white;
+            text-decoration: none;
+        }
+        #horizontal_menu li {
+            padding: 10px;
+            
+        }
+        nav ul {
+            list-style: none;
+        }
+        header {
+            height: 500px;
+            background-image: url(lone-tree.jpg);
+            background-color: rgba(0, 0, 0, 0.5);
+            background-size: cover;
+            background-position: center;
+            background-blend-mode: overlay;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        header h1 {
+            color: white;
+            font-size: 3rem;
+            margin-bottom: 15px;
+        }
+        .box {
+            width: 100%;
+            /* height: 40px; */
+            background: red;
+            padding: 20px;
+        }
+        header .button {
+            color: white;
+            background-color: blue;
+            padding: 10px 20px;
+            text-decoration: none;
+        }
+
+    </style>
+
+<body>
+    <nav id="horizontal_menu">
+        <h1>Logo</h1>
+        <ul>
+           <li>
+            <a href="">Menu</a>
+           </li> 
+           <li>
+            <a href="">Contact</a>
+           </li>
+           <li>
+            <a href="">About</a>
+           </li>
+           <li>
+            <a href="">Services</a>
+           </li>
+        </ul>
+    </nav>
+    <header>
+        <h1>Hello, this is my website</h1>
+        <a href="" class="button">See More</a>
+        <div class="box">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum perspiciatis doloremque ea eveniet totam modi ratione nemo inventore fugit earum. Eos quaerat eligendi voluptas, iure voluptates corrupti amet eum et!</p>
+    </div>
+    </header>
+</body>
+</html>

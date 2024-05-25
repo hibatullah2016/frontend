@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<tittle>HTML ATTRIBUTE</tittle>
+</head>
+<body>
+<h1>My coding assignment</h1>
+<p>12 Aminu Ishola street</p>
+<p>Amukoko lagos</p>
+<p>Thursday 15th February 2024</p>
+<p>Dear sir</p>
+<p>I LOVE TO CODE</p>
+
+<p>My name is Marjan</p>
+<p>Iam in primary 3</p>
+<p>The name of my school is Aduke Royals School</p>
+<p>Coding is my best subjects</p>
+</html>
+</body>

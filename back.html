@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        nav ul {
+            list-style: none;
+        }
+
+        #horizontal_menu {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 25px;
+            background-color: black;
+            color: white;
+        }
+        #horizontal_menu ul {
+            display: flex;
+        }
+
+        #horizontal_menu li {
+            padding: 10px;
+        }
+
+        #horizontal_menu a {
+            text-decoration: none;
+            color: white;
+        }
+        header {
+            height: 500px;
+            background-image: url(lone-tree.jpg);
+            background-color: rgba(0, 0, 0, 0.5);
+            background-size: cover;
+            background-position: center;
+            background-blend-mode: overlay;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        
+        }
+        header h1 {
+            color: white;
+            font-size: 3rem;
+            margin-bottom: 15px;
+        }
+        header .button {
+            color: white;
+            background: blue;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 12px;
+        }
+        
+    </style>
+</head>
+<body>
+    <nav id="horizontal_menu">
+        <h1>Logo</h1>
+        <ul>
+            <li>
+                <a href="">Home</a>
+            </li>
+            <li>
+                <a href="">About</a>
+            </li>
+            <li>
+                <a href="">Services</a>
+            </li>
+            <li>
+                <a href="">Contact</a>
+            </li>
+        </ul>
+    </nav>
+    <header>
+        <h1>Hello, this is my website</h1>
+        <a href="" class="button">See More</a>
+    </header>
+
+</body>
+</html>

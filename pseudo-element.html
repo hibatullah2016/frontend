@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p::first-line {
+            color: red;
+            padding-right: 10px;
+        }
+        p::first-letter {
+            font-size: 4rem;
+            
+        }
+        p::before {
+            content: my name is Abbey;
+        }
+        p::after {
+            content: This is paragraph;
+        }
+        ::marker {
+            color: red;
+            font-size: 3rem;
+            padding-right: 10px
+        }
+        ::marker {
+            color: blue;
+            font-size: 3rem;
+        }
+        /*  */
+        ::selection {
+            background: yellow;
+            color: black;
+        }
+       ul {
+        margin-left: 25px;
+       }
+       ol {
+        margin-left: 25px;
+       }
+    </style>
+</head>
+<body>
+    <!--pseudo-element selectors are used to style parts of element -->
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum et beatae rerum fugit explicabo consectetur necessitatibus fugiat odio modi assumenda. Asperiores, veritatis odio aspernatur nam numquam accusantium placeat nihil impedit.
+        </p>
+
+        <ul>
+            <li>home</li>        
+            <li>away</li>        
+            <li>say</li>        
+            <li>bay</li>        
+        </ul>
+
+        <ol>
+            <li>home</li>
+            <li>away</li>
+            <li>say</li>
+            <li>bay</li>
+        </ol>
+</body>
+</html>
